@@ -1,1 +1,86 @@
 /* You can add global styles to this file, and also import other style files */
+div
+{
+font-family: 'Ubuntu', sans-serif;
+
+	}
+
+.name1
+{
+	color: #3A4359;	
+}
+
+
+ .work h4, .education h4, .skills h4, .projects h4, .languages h4, .interest h4
+{
+	color: #3A4359;
+	margin-bottom: 15px;
+	border-top: 2px solid black;
+	padding-top: 9px;
+	padding-bottom: 9px;
+	border-bottom: 2px solid black;
+	display: inline-block;
+}
+
+
+.skills, .work , .languages, .interest , .projects
+{
+	margin-bottom: 40px;
+}
+
+.projects ul, .work ul ,.education ul
+{
+	list-style: none;
+	margin-left: -40px;
+}
+
+.work ul li ul li:nth-child(n+3) , .education ul li ul li:nth-child(3),.languages div div p:nth-child(2)
+{
+	color: #9B9B9B;
+	font-size: 12px;
+}
+
+.work ul li ul li h5 , .education ul li ul li h5
+{
+	line-height:50%;
+	font-size: 17px;
+}
+
+.work ul, .education ul
+{
+	margin-bottom: 40px;
+}
+
+.languages div div p
+{
+	line-height: 80%;
+}
+
+.interest ul, .skills ul
+{
+	list-style: none;
+	margin-left: -43px;
+	margin-bottom: 10px;
+}
+
+.interest ul#menu li {
+    display:inline;
+    border: 1px solid #B1B1B1;
+	padding: 5px;
+	margin-left: 8px;
+	border-radius: 4px;
+	font-size: 12px;
+}
+
+
+.skills ul#menu li {
+    display:inline;
+    background: #3A4359;
+	color: white;
+	padding: 5px;
+	margin-left: 8px;
+	border-radius: 4px;
+
+}
+
+

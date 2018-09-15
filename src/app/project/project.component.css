@@ -1,0 +1,25 @@
+ul {
+	position: relative;
+	list-style: none;
+	margin-left: 0;
+	padding-left: 1.2em;
+	margin-top: -10px;
+	margin-bottom: 30px;
+}
+
+ul li:before {
+	content: '\2212';
+	font-weight: 1000;
+	position: absolute;
+	size: 10px;
+	left: 0;
+}
+
+ul li
+{
+	font-size: 11px;
+}
+a
+{
+	color: inherit;
+}
